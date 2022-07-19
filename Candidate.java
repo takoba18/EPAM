@@ -5,6 +5,11 @@ public class Candidate {
     public Candidate() {
     }
 
+    public Candidate(int id, Resume resume) {
+        this.id = id;
+        this.resume = resume;
+    }
+
     public int getId() {
         return id;
     }
